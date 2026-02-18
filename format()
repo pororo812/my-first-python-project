@@ -1,0 +1,4 @@
+name = "Алиса"
+age = 25
+sentence = "Меня зовут {} и мне {} лет.".format(name, age)
+print(sentence)  # Вывод: «Меня зовут Алиса и мне 25 лет»

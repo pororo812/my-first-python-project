@@ -1,0 +1,2 @@
+percentage = 0.2567
+print(f"{percentage:.2%}")  # Выведет: 25.67%

@@ -1,0 +1,3 @@
+word = "Goodbye!"
+my_list = list(word)
+print(my_list) #Покажет слово Goodbye по буквам

@@ -16,3 +16,14 @@ homework = ["algebra", "physics", "kazakh language"]
 
 
 print("algebra" in homework) #Показывает есть ли элемент в списке
+
+
+
+5)
+
+homework1 = "algebra"
+homework2 = "physics"
+homework3 = "kazakh language"
+
+subjects = [homework1, homework2, homework3] #Покажет списки по данному порядку
+print(subjects)

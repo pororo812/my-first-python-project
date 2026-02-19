@@ -1,7 +1,7 @@
 homework = ["algebra", "physics", "kazakh language"]
 print(homework)
 
-2)
+code #2)
 my_list = list()
 print(my_list
 
@@ -27,3 +27,13 @@ homework3 = "kazakh language"
 
 subjects = [homework1, homework2, homework3] #Покажет списки по данному порядку
 print(subjects)
+
+
+
+6)
+
+production1 = ["sofa, carpet"]
+production2 = ["cofee, candies"]
+my_list = production1 + production2 #Покажет элементы по порядку
+
+print(my_list)

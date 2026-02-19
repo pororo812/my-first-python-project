@@ -37,3 +37,10 @@ production2 = ["cofee, candies"]
 my_list = production1 + production2 #Покажет элементы по порядку
 
 print(my_list)
+
+
+7)
+homework = ["algebra", "physics", "kazakh language"]
+homework.append("English") #Добавляет к тек.списку элемент English
+
+print(homework)

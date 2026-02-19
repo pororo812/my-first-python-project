@@ -1,0 +1,2 @@
+print(bool([])) #Значение выдает False
+print(bool([0])) #Выдает значение True

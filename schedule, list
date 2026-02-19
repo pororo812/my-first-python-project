@@ -44,3 +44,11 @@ homework = ["algebra", "physics", "kazakh language"]
 homework.append("English") #Добавляет к тек.списку элемент English
 
 print(homework)
+
+
+8)
+title = "Welcome, Uliana!"
+new_title = title.replace("Uliana", "students") #Заменяет слово/букву/цифру на другое
+
+print(title)
+print(new_title)

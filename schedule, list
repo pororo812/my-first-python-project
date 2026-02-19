@@ -1,0 +1,14 @@
+homework = ["algebra", "physics", "kazakh language"]
+print(homework)
+
+
+my_list = list()
+print(my_list
+
+
+homework = ["algebra", "physics", "kazakh language"]
+
+print(len(homework))
+
+
+

@@ -1,0 +1,2 @@
+homework = ["algebra", "physics", "kazakh language"]
+print(homework)

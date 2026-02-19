@@ -1,14 +1,18 @@
 homework = ["algebra", "physics", "kazakh language"]
 print(homework)
 
-
+2)
 my_list = list()
 print(my_list
 
-
+3)
 homework = ["algebra", "physics", "kazakh language"]
 
-print(len(homework))
+print(len(homework)) #показывает кол-во эл. в списке
 
 
+4)
+homework = ["algebra", "physics", "kazakh language"]
 
+
+print("algebra" in homework) #Показывает есть ли элемент в списке

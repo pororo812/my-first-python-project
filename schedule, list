@@ -59,3 +59,9 @@ print(new_title)
 homeworks = homework.pop() #удаляет последний эл. можно указать индекс в скобках
 print(homework)
 print(homeworks)
+
+10)
+homework = ["algebra", "physics", "kazakh language"]
+homework2 = ["English", "Geometry"]
+homework.extend(homework2) #совмещает списки
+print(homework)

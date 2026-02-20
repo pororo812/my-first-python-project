@@ -52,3 +52,10 @@ new_title = title.replace("Uliana", "students") #Заменяет слово/б�
 
 print(title)
 print(new_title)
+
+
+9) homework = ["algebra", "physics", "kazakh language"]
+
+homeworks = homework.pop() #удаляет последний эл. можно указать индекс в скобках
+print(homework)
+print(homeworks)

@@ -65,3 +65,13 @@ homework = ["algebra", "physics", "kazakh language"]
 homework2 = ["English", "Geometry"]
 homework.extend(homework2) #совмещает списки
 print(homework)
+
+11)
+homework = ["algebra", "physics", "kazakh language"]
+homework.reverse() #пишет список наоборот
+print(homework
+
+12)
+my_list = [8, 2,90,546, 5, 11]
+my_list.sort() #числа отсертерует по возрастанию
+print(my_list)

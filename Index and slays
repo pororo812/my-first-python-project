@@ -3,3 +3,11 @@ entrance_number = flat_number // 20 #покажет номер подьезда
 floor_number = flat_number % 20 // 4 #покажет номер этажа
 
 print("Entrance_number", entrance_number, "floor_number", floor_number)
+
+
+2)
+box_number = 13
+rack_number = box_number // 10
+row_number = box_number % 10 // 5
+
+print("rack_number", rack_number, "row_number", row_number)

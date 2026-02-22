@@ -11,3 +11,8 @@ rack_number = box_number // 10
 row_number = box_number % 10 // 5
 
 print("rack_number", rack_number, "row_number", row_number)
+
+3)
+homework = ["algebra", "physics", "kazakh language"]
+homework[0], homework[1] =  homework[1],  homework[0] #меняет местами порядок
+print(homework)

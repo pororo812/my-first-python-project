@@ -31,3 +31,13 @@ number = [0,1,2,3,4,5,6,7,8,9]
 new_number = list(reversed(number)) #пишет цифры от конца к началу, разворачивает лист
 print(type(new_number))
 print(new_number)
+
+7) задача
+fruits = ["яблоко", "банан", "киви", "арбуз", "ананас"]
+fruits1 = fruits[2]
+fruits2 = fruits[-1]
+fruits3 = fruits[1:4]
+
+print(fruits1)
+print(fruits2)
+print(fruits3)

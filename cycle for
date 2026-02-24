@@ -1,0 +1,34 @@
+file_names = ["document1", "document2", "document3", "document4"]
+for new_file in file_names:
+    print(new_file) #выводит в столбик все эл-ты в 
+
+      2)
+greeting = "hello, world!"
+count_o = 0
+for char in greeting:
+    if char == "o": 
+        count_o += 1 #прибавляем к переменной +1, если находиться "о"
+        print(char)
+        print(count_o)
+        #вывод
+     #o
+    #1
+    #o
+    #2
+
+
+  3)
+animals = ["cat", "dog", "beer", "cow"]
+
+for animal in animals: #пишет 1 слово из списка
+     print(animal)
+     for char in animal: #пишет это слово по буквам
+         print(char)
+         #так делается со всеми словами в спис\
+
+4)
+range_object = range(10) #range(0, 10)
+print(range_object)
+
+numbers = list(range_object)
+print(numbers) #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]

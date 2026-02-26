@@ -20,3 +20,54 @@ num2 = float(input('Enter a 2st number: '))
 
 result = multiply(num1, num2)
 print(result)
+
+
+3)
+
+greeting = ("Welcome!")
+print(greeting)
+
+def devide(x, y):
+    if y == 0:
+        return "Ошибка: на ноль делить нельзя!"
+    return x/y
+
+def multiply(x, y):
+    return x*y
+
+def sum(x, y):
+    return x+y
+
+def sub(x, y):
+    return x-y
+
+while True:
+    print("/n--- Новый расчет ---")
+
+    num1 = float(input('Enter a 1st number: '))
+    num2 = float(input('Enter a 2st number: '))
+
+    operation = input("Выберите действие (*, /, + или -):")
+
+    if operation == "*":
+        result = multiply(num1, num2)
+        print(result)
+
+    if operation == "/":
+        result = devide(num1, num2)
+        print(result)
+
+    if operation == "+":
+        result = sum(num1, num2)
+        print(result)
+
+    if operation == "-":
+        result = sub(num1, num2)
+        print(result)
+
+    elif operation.lower() == "Выход":
+        print("Программа завершена. До свидания!")
+        break
+
+    else:
+        print("Готово!")

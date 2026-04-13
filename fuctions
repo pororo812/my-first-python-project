@@ -1,0 +1,35 @@
+numbers_1 = [1, 2, 3, 4, 5]
+
+average_1 = sum(numbers_1) / len(numbers_1)  #показывает сред значение 3,0
+
+print(average_1)
+
+
+2) 
+numbers_1 = [1, 2, 3, 4, 5]
+numbers_2 = [6, 7, 8, 9, 10]
+
+
+def find_average(numbers): #команда чтобы не повторялся код
+      average = sum(numbers) / len(numbers)
+      return average #если не записать эту команду то выйдет none
+
+
+average_1 = find_average(numbers_1)
+average_2 = find_average(numbers_2)
+print(average_1, average_2)  #покажет 3.0 8.0 
+
+
+3)
+def count_consonants(string):
+    CONSONANTS = "bcdfhBCDFH"
+    count = 0
+    for char in string:
+        if char in CONSONANTS:
+            count += 1  #считает согласные,но здесь где-то ошибка
+
+        return count
+
+
+print(count_consonants("ddfufhuhhfcudffhud"))
+print(count_consonants("Five millions students are reading BBC."))

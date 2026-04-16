@@ -33,3 +33,34 @@ def count_consonants(string):
 
 print(count_consonants("ddfufhuhhfcudffhud"))
 print(count_consonants("Five millions students are reading BBC."))
+
+
+
+4)
+def nothing(): #создали функцию с именем nothing
+    pass #вместо пасс можно написать принт ("jshdf"). Значение пропусти это место
+nothing() #как бы запускаем функцию. НИчего не выда
+
+5)
+
+def format_date(day: int, month: str): #пишем инт и стр чтобы нам показывало ошибку если пишем в неправ порядке
+    return f"The date is {day} of {month}" #ф нужен чтобы в тексте могли перменную добавить в {}. ретурн для функции
+
+print(format_date(month="December", day="10")) #желательно писать month= и тп тк можно не последовательно писать))
+
+
+
+также
+
+def format_date(*, day: int, month: str): #изза звездочки мы должны прописыватб все как под номером 4
+    return f"The date is {day} of {month}" #ф нужен чтобы в тексте могли перменную добавить в {}. ретурн для функции
+
+print(format_date(month="December", day="10")) #4
+
+
+6)
+
+def custom_greeting(*, name: str, greeting: str = "sixseven"): #мы дали значение гритинк
+    return f"{name}, {greeting},"
+print(custom_greeting(name="Hello girl", greeting="what is yr name?"))
+print(custom_greeting(name="I luv...")) #если не пишем гритинк, то выдает sixseven

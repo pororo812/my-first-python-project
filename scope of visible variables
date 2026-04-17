@@ -1,7 +1,0 @@
-COMFORTABLE_TEMPERATURE = 26
-
-def get_diff_from_comfortable_temperature(*, temperature: int) -> int:
-    return COMFORTABLE_TEMPERATURE - temperature
-
-print(get_diff_from_comfortable_temperature(temperature=9))
-#покажет 17

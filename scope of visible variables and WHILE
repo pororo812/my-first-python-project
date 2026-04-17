@@ -1,0 +1,41 @@
+COMFORTABLE_TEMPERATURE = 26
+
+def get_diff_from_comfortable_temperature(*, temperature: int) -> int:
+    return COMFORTABLE_TEMPERATURE - temperature
+
+print(get_diff_from_comfortable_temperature(temperature=9))
+#покажет 17
+
+
+2)
+counter = 1
+
+while counter <= 5: #будет идти счет от 1 до 5
+    print(f"Counter is: {counter}") 
+    counter += 1 #прибавляет +1 к счетчику 
+
+3)
+while True:
+    print("ррооарооп") #слово идет бесконечно хаххах
+
+
+4)
+while True:
+    answer = input("Enter a number: ") 
+    if answer == "quit":
+        break
+    print(f"You entered: {answer} ")
+
+
+5)
+import random
+
+HEADS = "heads" #орел
+TAILS = "tails" #решка
+COIN_VALUES = [HEADS, TAILS]
+
+
+def flip_coin():
+    return random.choice(COIN_VALUES) #выдает рандом сторону
+
+print(flip_coin())

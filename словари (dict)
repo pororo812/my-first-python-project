@@ -1,0 +1,17 @@
+1)
+person = {"name": "Guma", "age": 13, "city": "Atyrau"}
+
+print(person.get("country")) #ставим .get и питон покажет есть ли это в ключе или нет. Если нет то выдает "None"
+
+
+1)
+person = {"name": "Guma", "age": 13, "city": "Atyrau"}
+
+print(person.get("country", "USA")) #можно добавить свой ключ в принте и он выдаст его в ответе. Но если ключ уже существовал то выдаст старый
+
+
+2)
+box_1 = {"from the": "New York", "to the": "Tokyo", "content": "toys"}
+box_2 = {"from the": "Astana", "to the": "Tokyo", "content": "toys"}
+
+print(box_1 == box_2) #сравнивает коробки. У них разные страны поэтому знаение будет False

@@ -1,0 +1,24 @@
+box_1 = {"from the": "New York", "to the": "Tokyo", "content": "toys"}
+box_2 = {"from the": "Astana", "to the": "Tokyo", "content": "toys"}
+
+print(box_1 == box_2) #сравнивает коробки. У них разные страны поэтому знаение будет False
+
+
+
+2)
+def add_all(*args): #*args собрать все аргументы в кортеж.кортеж нельзя измменить как список
+    print(args)
+    print(type(args)) #type чтобы узнать к какому типу относиться (число, стр, лист и тп)
+
+
+add_all(1, 2, 3) #вывод (1, 2, 3), <class 'tuple'>
+
+
+
+3) 
+def introduce(**kwargs): #именованные значения аргументов только
+    print(kwargs)
+    print(type(kwargs))
+
+
+introduce(name="John", age=30, city="New York") #вывод; {'name': 'John', 'age': 30, 'city': 'New York'}, <class 'dict'>

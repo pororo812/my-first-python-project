@@ -1,0 +1,30 @@
+import json
+
+user = {
+    "name": "Alex",
+    "age": 25
+}
+
+# Превращаем словарь Python в JSON-строку
+json_text = json.dumps(user)
+
+print(json_text)
+print(type(json_text))
+#выводит: {"name": "Alex", "age": 25}, <class 'str'>
+
+
+2)
+import json
+
+# JSON-строка
+json_text = '{"name": "Alex", "age": 25}'
+
+# Превращаем JSON в словарь Python
+user = json.loads(json_text)
+
+print(user)
+print(type(user))
+
+# Берём значение по ключу
+print(user["name"])
+#выводит: {'name': 'Alex', 'age': 25}, <class 'dict'>, Alex

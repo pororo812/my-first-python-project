@@ -1,0 +1,44 @@
+import requests #запрос кидает к ссылке
+
+url = 'https://api.binance.com/api/v3/ticker/price'
+
+response = requests.get(url, params={'symbol': 'BTCUSDT'}) #запрос к сайту на курс битк к доллару
+
+content = response.content
+
+print(content)
+print(type(content))
+#Вывод b'{"symbol":"BTCUSDT","price":"60045.48000000"}', <class 'bytes'>
+
+
+2)
+import requests #запрос кидает к ссылке
+
+url = 'https://api.binance.com/api/v3/ticker/price'
+
+response = requests.get(url, params={'symbol': 'BTCUSDT'}) #запрос к сайту на курс битк к доллару
+
+price = response.json() #выводим методом пайтона а не джисона
+print(price)
+print(type(price)) #{'symbol': 'BTCUSDT', 'price': '60212.00000000'}, <class 'dict'
+
+
+3)
+
+import requests #запрос кидает к ссылке
+import time
+
+url = 'https://api.binance.com/api/v3/ticker/price'
+
+bitcoin_prices = []
+for i in range(30): #выйдет список из 30 цен биткоина 
+
+    response = requests.get(url, params={'symbol': 'BTCUSDT'}) #запрос к сайту на курс битк к доллару
+    price = float(response.json()['price']) #дробью выйдут значения
+    bitcoin_prices.append(price)
+    time.sleep(1)
+
+print(bitcoin_prices)
+print(len(bitcoin_prices))
+print(max(bitcoin_prices))
+print(min(bitcoin_prices))
